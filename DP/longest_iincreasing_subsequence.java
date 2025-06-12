@@ -1,8 +1,8 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
-       return  lis(nums);
+       return  LIS(nums);
     }
-    public int lis(int [] arr){
+    public int LIS(int [] arr){
         int n = arr.length;
         int dp[] = new int[n];
         dp[0]=arr[0];
